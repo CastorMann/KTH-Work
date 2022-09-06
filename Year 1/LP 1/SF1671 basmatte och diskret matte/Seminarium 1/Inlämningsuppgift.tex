@@ -4,8 +4,14 @@
   \begin{equation}
       cos^2(4x + \frac{\pi}{3}) = sin^2(3x-\frac{\pi}{4})
   \end{equation}
-  
-  2. Hitta alla lösningar till ekvationen
+  Vi börjar med notera att $sin(v) = cos(\frac{\pi}{2} - v)$ och skriver således om ekvationen till: \newline\newline
+  $cos^2(4x + \frac{\pi}{3}) = cos^2(\frac{3\pi}{4} - 3x)$\newline\newline
+  Lösningarna till denna ekvation finns då $4x + \frac{\pi}{3} = \pi n \pm (\frac{3\pi}{4} - 3x)$ för alla $n \in \mathBB{Z}$\newline 
+  Vi kan dela in ekvationen i dess två möjligheter:\newline
+  $4x + \frac{\pi}{3} = \pi n + \frac{3\pi}{4} - 3x$ och $4x + \frac{\pi}{3} = \pi n - \frac{3\pi}{4} + 3x$.\newline
+  Den första av dessa har lösnignarna $x = \frac{\pi n}{7} + \frac{5\pi}{84}$ och den andra har lösningarna $x = \pi n - \frac{13\pi}{12}$\newline\newline
+  Svar: $x = \frac{\pi n}{7} + \frac{5\pi}{84}$ eller $x = \pi n - \frac{13\pi}{12}$ för alla $n \in \mathBB{Z}$.
+  \newline \newline2. Hitta alla lösningar till ekvationen. 
   \begin{equation}
       |2x^3 + x^2 - 13x + 6| = 1 - 2x
   \end{equation}
@@ -32,6 +38,9 @@
   \begin{equation}
       ln(4 + e^{2x}) \leq ln(1 + 2e^x) + ln(3 + e^x)
   \end{equation}
+  Vi börjar med att upphöja e till bägge leden för att få bort alla logaritmer:\newline
+  $4 + e^{2x} \leq (1 + 2e^x)(3 + e^x) \Rightarrow 4 + e^{2x} \leq 3 + 7e^x + 2e^{2x} \Rightarrow (e^x)^2 + 7e^x - 1 \geq 0$\newline pq-formeln ger sedan att $e^x \geq -\frac{7}{2} + \sqrt{(\frac{7}{2})^2 + 1} = \frac{\sqrt{65} - 7}{2}$. Notera att vi inte är intresserade av den negativa lösningen som pq-formeln vanligvis ger eftersom $e^x$ aldrig kan vara negativt. Slutligen kan vi beräkna x genom att ta den naturliga logaritmen på bägge sidor.\newline \newline
+  Svar: $\{x \in \mathbb{R}: x \geq ln(\frac{\sqrt{65} - 7}{2})\}$\newline
   
   4. Lös ekvationen 
   \begin{equation}
