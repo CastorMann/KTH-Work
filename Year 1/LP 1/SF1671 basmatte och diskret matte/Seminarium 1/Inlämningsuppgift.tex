@@ -1,0 +1,40 @@
+\documentclass{article}
+\begin{document}
+  1. Hitta alla lösningar till ekvationen
+  \begin{equation}
+      cos^2(4x + \frac{\pi}{3}) = sin^2(3x-\frac{\pi}{4})
+  \end{equation}
+  
+  2. Hitta alla lösningar till ekvationen
+  \begin{equation}
+      |2x^3 + x^2 - 13x + 6| = 1 - 2x
+  \end{equation}
+  Vi delar in ekvationen i dess två möjliga fall:
+  \begin{equation}
+      2x^3 + x^2 - 13x + 6 = 1 - 2x
+  \end{equation}
+  och 
+  \begin{equation}
+      2x^3 + x^2 - 13x + 6 = 2x - 1
+  \end{equation}
+  Vi börjar med den första möjligheten, ekvation (3). Subtrahera 1 - 2x från bägge sidor.
+  \newline \newline
+  $2x^3 + x^2 - 11x + 5 = 0$
+  \newline \newline
+  Vi faktoriserar vänsterledet och får
+  \newline \newline
+  $(2x - 1)(x^2 + x - 5) = 0$
+  \newline \newline
+  Ekvationen har 3 rötter. En finns då $2x - 1$ är 0 och övriga då $x^2 + x - 5$ är 0. Den förstnämnda roten är trivial och övriga finns exempelvis via pq-formeln. Rötterna är följande: $x = \frac{1}{2}$, $x = \frac{\sqrt{21}}{2} - \frac{1}{2}$ och $x = -\frac{\sqrt{21}}{2} - \frac{1}{2}$
+  \newline \newline
+  Vi repeterar stegen ovan för den andra ekvationen, ekvation (4). Subtrahera 2x - 1 från bägge sidor och faktorisera vänsterledet. Vi får följande ekvation:
+  \newline \newline
+  $(2x - 1)(x^2 + x - 7) = 0$
+  \newline \newline
+  Vi har samma triviala rot $x = \frac{1}{2}$ även i denna ekvation. Övriga rötter finner vi på samma sätt som tidigare. Dessa rötter är följande: $x = \frac{\sqrt{29}}{2} - \frac{1}{2}$ och $x = -\frac{\sqrt{29}}{2} - \frac{1}{2}$
+  \newline \newline
+  Vi har alltså funnit 5 rötter: $x = \frac{1}{2}$, $x = \frac{\sqrt{21}}{2} - \frac{1}{2}$, $x = -\frac{\sqrt{21}}{2} - \frac{1}{2}$, $x = \frac{\sqrt{29}}{2} - \frac{1}{2}$ och $x = -\frac{\sqrt{29}}{2} - \frac{1}{2}$. Vi måste nu verifiera dessa genom att sätta in värdena för x i vår ursprungliga ekvation. När vi gör detta finner vi att två av rötterna är falska: $x = \frac{\sqrt{21}}{2} - \frac{1}{2}$ och $x = \frac{\sqrt{29}}{2} - \frac{1}{2}$. Våra lösnignar är således följande: $x = \frac{1}{2}$, $x = -\frac{\sqrt{21}}{2} - \frac{1}{2}$ och $x = -\frac{\sqrt{29}}{2} - \frac{1}{2}$
+  \newline \newline
+  Svar: $x = \frac{1}{2}$ eller $x = -\frac{\sqrt{21}}{2} - \frac{1}{2}$ eller $x = -\frac{\sqrt{29}}{2} - \frac{1}{2}$
+  
+\end{document}
