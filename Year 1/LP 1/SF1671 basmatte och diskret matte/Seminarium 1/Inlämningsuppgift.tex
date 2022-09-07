@@ -6,10 +6,10 @@
   \end{equation}
   Vi börjar med notera att $sin(v) = cos(\frac{\pi}{2} - v)$ och skriver således om ekvationen till: \newline\newline
   $cos^2(4x + \frac{\pi}{3}) = cos^2(\frac{3\pi}{4} - 3x)$\newline\newline
-  Lösningarna till denna ekvation finns då $\pm (4x + \frac{\pi}{3}) = 2\pi n \pm (\frac{3\pi}{4} - 3x)$ för alla $n \in \mathBB{Z}$. Vi kan dela in ekvationen i dess fyra möjligheter:\newline\newline
-  $4x + \frac{\pi}{3} = 2\pi n + \frac{3\pi}{4} - 3x$, $4x + \frac{\pi}{3} = 2\pi n - \frac{3\pi}{4} + 3x$, $-4x - \frac{\pi}{3} = 2\pi n + \frac{3\pi}{4} - 3x$ och $-4x - \frac{\pi}{3} = 2\pi n - \frac{3\pi}{4} + 3x$\newline\newline
+  Lösningarna till denna ekvation finns då $4x + \frac{\pi}{3} = \pi n \pm (\frac{3\pi}{4} - 3x)$ för alla $n \in \mathBB{Z}$. Orsaken till att perioden är $\pi$ och inte $2\pi$ är att bägge leden i den ursprngliga ekvationen är kvadrerade och kan således endast ge positiva värden, och $cos(v) = - cos(v + \pi)$. Vi kan dela in ekvationen i dess två möjligheter:\newline\newline
+  $4x + \frac{\pi}{3} = \pi n + \frac{3\pi}{4} - 3x$ och $4x + \frac{\pi}{3} = \pi n - \frac{3\pi}{4} + 3x$.\newline\newline
   Den första av dessa har lösnignarna $x = \frac{\pi n}{7} + \frac{5\pi}{84}$ och den andra har lösningarna $x = \pi n - \frac{13\pi}{12}$\newline\newline
-  Svar: $x = \frac{\pi n}{7} + \frac{5\pi}{84}$ eller $x = \pi n - \frac{13\pi}{12}$ för alla $n \in \mathBB{Z}$.
+  Svar: $x = \frac{\pi(12n +5)}{84}$ eller $x = \frac{\pi(84n - 91)}{84}$ för alla $n \in \mathBB{Z}$.
   \newline \newline
   
   2. Hitta alla lösningar till ekvationen. 
@@ -40,14 +40,14 @@
       ln(4 + e^{2x}) \leq ln(1 + 2e^x) + ln(3 + e^x)
   \end{equation}
   Vi börjar med att upphöja e till bägge leden för att få bort alla logaritmer:\newline
-  $4 + e^{2x} \leq (1 + 2e^x)(3 + e^x) \Rightarrow 4 + e^{2x} \leq 3 + 7e^x + 2e^{2x} \Rightarrow (e^x)^2 + 7e^x - 1 \geq 0$\newline pq-formeln ger sedan att $e^x \geq -\frac{7}{2} + \sqrt{(\frac{7}{2})^2 + 1} = \frac{\sqrt{65} - 7}{2}$. Notera att vi inte är intresserade av den negativa lösningen som pq-formeln vanligvis ger eftersom $e^x$ aldrig kan vara negativt. Slutligen kan vi beräkna x genom att ta den naturliga logaritmen på bägge sidor.\newline \newline
-  Svar: $\{x \in \mathbb{R}: x \geq ln(\frac{\sqrt{65} - 7}{2})\}$\newline
+  $4 + e^{2x} \leq (1 + 2e^x)(3 + e^x) \Rightarrow 4 + e^{2x} \leq 3 + 7e^x + 2e^{2x} \Rightarrow (e^x)^2 + 7e^x - 1 \geq 0$\newline pq-formeln ger sedan att $e^x \geq -\frac{7}{2} + \sqrt{(\frac{7}{2})^2 + 1} = \frac{\sqrt{53} - 7}{2}$. Notera att vi inte är intresserade av den negativa lösningen som pq-formeln vanligvis ger eftersom $e^x$ aldrig kan vara negativt. Slutligen kan vi beräkna x genom att ta den naturliga logaritmen på bägge sidor.\newline \newline
+  Svar: $\{x \in \mathbb{R}: x \geq ln(\frac{\sqrt{53} - 7}{2})\}$\newline
   
   4. Lös ekvationen 
   \begin{equation}
       arctan(sinh(x)) = -\frac{\pi}{4}
   \end{equation}
-  Vi tar tangens för bägge sidor. och får $sinh(x) = tan(-\frac{\pi}{4})$. $tan(-\frac{\pi}{4})$ har den triviala lösningen -1. Vi tar sedan arcsinh på bägge sidor och får $x = arcsinh(-1) \Rightarrow x = -arcsinh(1)$ \newline \newline
-  Svar: $x = -arcsinh(1)$
+  Vi tar tangens för bägge sidor. och får $sinh(x) = tan(-\frac{\pi}{4})$. $tan(-\frac{\pi}{4})$ har den triviala lösningen -1. Vi tar sedan arcsinh på bägge sidor och får $x = arcsinh(-1)$ \newline \newline
+  Svar: $x = arcsinh(-1)$ och eftersom $arcsinh(x) = ln(\sqrt{x^2 + 1} + x)$ kan svaret även skrivas som $ln(\sqrt{2} - 1)$
   
 \end{document}
